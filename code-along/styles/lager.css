@@ -1,0 +1,16 @@
+@media screen and (min-width: 38rem) {
+
+    header, nav, main, footer{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header{
+        grid-template-columns: 40px auto;
+    }
+
+  .hamburger {
+    display: none;
+  }
+
+}
