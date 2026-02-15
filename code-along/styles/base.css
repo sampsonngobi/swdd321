@@ -46,3 +46,76 @@ header span {
     font-size: 2rem;
 }
 
+/* .......................Nav Bar............................... */
+
+.navigation{
+    display: none;
+}
+.navigation.show{
+    display: block;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    gap:25px;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ...................Main............................... */
+
+main{
+    margin: 5px 10px;
+    padding: 2px;
+}
+
+
+
+/* ...................Footer............................... */
+
+
+footer{
+    
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+    
+}
+
+.socail {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px ;
+}
+
+.socail a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: black solid 1px;
+    border-radius: 50px;
+}
+
+  .socail img{
+    width: 22px;
+    height: 22px;
+   
+} 
+
+.socail a:hover{
+    background-color: #ddd;
+}
+

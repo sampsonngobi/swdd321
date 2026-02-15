@@ -13,4 +13,30 @@
     display: none;
   }
 
+  .navigation{
+    display: block;
+    background: black;
+    padding: 0.1px;
+  }
+
+  .navigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+   
+  }
+
+  .navigation ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+main .text{
+    display: flex;
+    gap: 15px;
+}
+
 }
